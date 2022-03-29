@@ -18,6 +18,24 @@ body {
   list-style: none;
 }
 
+/* Button */
+
+.button {
+}
+
+.button.primary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color-light);
+}
+.button.primary:hover {
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+}
 /* Палитра:
 
 Цвет основного текста - #757575
@@ -37,6 +55,10 @@ body {
 }
 
 /* Site nav */
+.site-nav .link.current {
+  color: #2196f3;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -53,6 +75,8 @@ body {
 .contacts-nav .link:hover {
   color: var(--accent-color);
 }
+
+/* Стили для index.html */
 
 /* Hero */
 .hero {
@@ -89,4 +113,14 @@ body {
 }
 .adress {
   color: var(--primari-white-color);
+}
+
+/* Стили для portfolio.html */
+
+.cards .text {
+  color: var(--primary-text-color);
+}
+
+.portfolio a {
+  text-decoration: none;
 }
