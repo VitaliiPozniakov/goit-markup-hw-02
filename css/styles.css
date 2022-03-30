@@ -42,8 +42,12 @@ body {
   text-decoration: none;
 }
 
-.logo-accent {
+.logo-blue {
   color: var(--accent-color);
+}
+
+.logo-white {
+  color: var(--primari-white-color);
 }
 
 /* Site nav */
@@ -160,6 +164,11 @@ body {
 .adress-list .link {
   color: var(--secondary-white-color);
   line-height: 1.71;
+  text-decoration: none;
+}
+
+.adress-list a{
+  font-style: normal;
   text-decoration: none;
 }
 
