@@ -14,7 +14,7 @@ body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -54,8 +54,8 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   line-height: 1.14;
-  letter-spacing: 0.48px;
   font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .site-nav .link:focus,
@@ -66,8 +66,8 @@ body {
 .contacts-nav .link {
   color: var(--primary-text-color);
   line-height: 1.14;
-  letter-spacing: 0.48px;
   font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ body {
   color: var(--primari-white-color);
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.06em;
   font-weight: 900;
   text-align: center;
 }
@@ -99,7 +99,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   text-align:: center;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.06em;
   vertical-align: center;
 }
 
@@ -192,7 +192,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   text-align:: center;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.06em;
   vertical-align: center;
 } */
 
@@ -200,6 +200,7 @@ body {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   }
 
 .cards .text {
