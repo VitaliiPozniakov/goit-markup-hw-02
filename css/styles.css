@@ -156,16 +156,24 @@ body {
   background-color: var(--secondary-background-color-dark);
 }
 
-.adress-list .adress {
+.contact-list .adress {
   color: var(--primari-white-color);
   line-height: 1.71;
 }
 
-.adress-list .link {
+.contact-list .link {
   color: var(--secondary-white-color);
   line-height: 1.71;
   text-decoration: none;
 }
+
+.contact-list .adress:focus,
+.contact-list .adress:hover,
+.contact-list .link:focus,
+.contact-list .link:hover {
+  color: var(--accent-color);
+}
+
 
 .adress-list a{
   font-style: normal;
@@ -181,14 +189,19 @@ body {
   font-size: 16px;
   line-height: 1.63;
   /* text-align: center; */
+
+  cursor: pointer;
 }
 
 .button.primary {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color-light);
   font-family: inherit;
-}
-.button.primary:hover {
+  }
+
+
+.button.primary:hover, .button.primary:focus
+ {
   color: var(--primari-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -204,6 +217,7 @@ body {
   letter-spacing: 0.06em;
   vertical-align: center;
 } */
+
 
 .cards .title {
   color: var(--title-text-color);
